@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nava Jeeva Convention Centre</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/svg+xml" alt="favicon">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+917899345328" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Bookings :</p>
+
+            <p class="helpline-number">+91 7899345328</p>
+          </div>
+
+        </a>
+
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logotransparent.png" alt="Nava Jeeva Logo" style="height: 60px; width: 80px;">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="" aria-label="">
+            <ion-icon name=""></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/p/NAVA-JEEVA-Convention-Centre-Bangalore-84-61553923078067/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logotransparent.png" alt="Nava Jeeva logo" style="width: 60px;">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="index.html" class="navbar-link active" data-nav-link
+              style="background-color: white; color: blue; padding: 5px 10px; border-radius: 20px; text-decoration: none;">home</a>
+            </li>
+
+            <li>
+              <a href="completeview.html" class="navbar-link" data-nav-link>360° Tour</a>
+            </li>
+
+            <li>
+              <a href="gallery.html" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="facilities.html" class="navbar-link" data-nav-link>facilities</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary"><a href="contact.html">Book Now</a></button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Step Into</h2>
+
+          <p class="hero-text">
+            
+          the place where we turn your events into unfrogatable memories.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary"><a href="completeview.html" style="color: white;">360° View</a></button>
+
+            <button class="btn btn-secondary"><a href="contact.html" style="color: white;">Book now</a></button>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #TOUR SEARCH
+      --
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Search Destination*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Pax Number*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+          </form>
+
+        </div>
+      </section> 
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Nava Jeeva Convention Centre</p>
+
+          <h2 class="h2 section-title">About Us</h2>
+      </section>
+        
+      <div class="container-xxl py-5" id="about">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+              <div class="d-flex flex-column">
+                <img
+                  class="img-fluid align-self-end"
+                  src="./assets/images/image3.jpg"
+                  alt=""
+                  style="height: 400px; width: 100%; max-width: 1200px;"
+                />
+                <div class="w-50 bg-secondary p-5" style="margin-top: -25%">
+                  <h1 class="text-uppercase text-primary mb-3">HIGH TECH</h1>
+                  <h2 class="text-uppercase mb-0">AMENITIES</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+              <!-- <p class="d-inline-block bg-secondary text-primary py-1 px-4">
+                About Us
+              </p> 
+              <h1 class="text-uppercase mb-4">About Nava Jeeva</h1>
+              <p class="justify-para">
+                We at Nava Jeeva Convention Centre are proud to present professionally
+                managed spaces to help you host your events in an ambience of your
+                choice, style and elegance – in short your event will be something
+                that defines you, your vision and your personality. Being one of the 
+                bestconvention centre in Bangalore, we
+                guarantee that your event will be your pride and delight.
+              </p>
+              <p class="mb-4 justify-para">
+                The Convention Centre is professionally designed by experts in
+                architecture, and the hospitality section is managed by well
+                trained and experienced professionals in the field. With a serene
+                ambience and the most modern amenities, Nava Jeeva sets the pristine
+                place to make each gathering remarkable and most memorable.
+              </p>
+              <p class="mb-4 justify-para">
+                Nava Jeeva Convention Centre boasts ample car parking, fully
+                air-conditioned facilities and hi-tech amenities such as free
+                Wifi. In addition to the convention centre, we also have an
+                exhibition hall and a mini hall that cater to the rising demands
+                for spaces to hold exhibitions, conferences and conventions or
+                small-scale get-togethers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">Nava Jeeva Convention Centre</p>
+
+          <h2 class="h2 section-title">WHAT WE OFFER </h2>
+
+          <p class="section-text">
+            <!--Write something if i get it later-->
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/Img11.jpeg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#"></a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Convention Centre</a>
+                  </h3>
+
+                  <p class="card-text">
+                    The Convention Centre is designed to cater to all kinds of gatherings effortlessly.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/Dining2.jpeg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#"></a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Dining Area</a>
+                  </h3>
+
+                  <p class="card-text">
+                    The convention center features a spacious dining area, perfect for large gatherings and events.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/parking1.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#"></a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Parking Area</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Ample basement parking available, ensuring convenience and security for all guests.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary"><a href="facilities.html" style="color: white;"> Know More </a></button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+    
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Packeges</p>
+
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Experience The Great Holiday On Beach</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $750
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Summer Holiday To The Oxolotan River</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $520
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Santorini Island's Weekend Vacation</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $660
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>  -->
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">Not Just Pictures!</h2>
+
+          <p class="section-text">
+            Every picture tells a story, Where memories are made visible.
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/Inaguration1.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/Img2.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/newiamge3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/Img4.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/Dining4.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+          <button class="btn btn-primary"><a href="facilities.html" style="color: white;"> Gallery</a></button>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Connect with Us</p>
+
+            <h2 class="h2 section-title">Ready to Host Unforgettable Events? Count on Us!</h2>
+
+            <p class="section-text">
+              Experience excellence in every detail. Our state-of-the-art 
+              facilities and dedicated team ensure your event is a success. Let's make it memorable together.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary"><a href="contact.html" style="color: white;">Contact Us !</a></button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo" style="color: white; font-size: 20px;">
+            <p><b> Nava Jeeva Convention Centre </b></p> 
+          </a>
+
+          <p class="footer-text">
+            Experience the ultimate in event planning and execution at our convention center, 
+            where cutting-edge technology, exceptional service, and stunning design come together to create
+             an unparalleled setting for your next big occasion.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title"><a href="contact.html" style="color: white;">Contact Us</a></h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+917899345328" class="contact-link">+91 7899345328</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:navajeevacentre@gmail.com" class="contact-link">navajeevacentre@gmail.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address ><a href="https://maps.app.goo.gl/7VodiVDUR3R8Z1zH9" style="color: white;">HBR Layout,
+                Bengaluru, Karnataka 560084</a></address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer"> <!--
+
+          <div class="footer-form">
+            <p class="form-text">
+              Subscribe to our newsletter for more updates & news!
+            </p>
+        
+            <form action="" class="form-wrapper">
+              <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+        
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+          </div> -->
+        
+          <div class="footer-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1729023592684!2d77.62510147515376!3d13.024659013712624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17fbd6a2655f%3A0xd385d5c7aa01c10e!2sNava%20Jeeva%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1724487952771!5m2!1sen!2sin" 
+              width="100%" 
+              height="250" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+        
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="">Nava Jeeva Ashram</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
